@@ -1,0 +1,74 @@
+/* .border_text{
+    border: 1px solid black;
+    height: 70vh;
+    background: url('../assets/7361118.jpg');
+    background-size: cover;
+}
+.play_icon{
+    
+} */
+
+
+
+
+
+
+
+
+
+.border_text {
+    height: 70vh;
+    background: url('../assets/video_bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex; /* Flexbox for play icon */
+    justify-content: center; /* Horizontally center play icon */
+    align-items: center; /* Vertically center play icon */
+    position: relative; /* Required for positioning child elements */
+    margin-top: 10%;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.watch_text {
+    position: absolute; /* Position text relative to the container */
+    top: 10px; /* Distance from the top of the container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    font-size: 1.5rem; /* Responsive text size */
+    color: #0056b3; /* Text color */
+}
+
+.text_meet {
+    margin-top: 40px; /* Add spacing below "Watch video" */
+    font-size: 2rem; /* Responsive font size */
+    color: #070707; /* Text color */
+    font-weight: bold; /* Make the text stand out */
+    text-align: center; /* Center the text */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better readability */
+}
+
+.play_icon {
+    /* font-size: 6vw; 
+    color: dodgerblue; 
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out;  */
+    display: inline-block;
+    background: #0B59D7;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 72px;
+    font-size: 35px;
+    border-radius: 50%;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+    -webkit-transition: 0.5s;
+    
+}
+
+.play_icon:hover {
+    transform: scale(1.2); /* Slight zoom-in on hover */
+}
+
+

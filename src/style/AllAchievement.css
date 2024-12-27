@@ -1,0 +1,305 @@
+/* Achievements.css */
+/* .achievements-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin-top: 5%;
+  }
+  .achiv_text{
+    font-size: 1.5rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #007bff; 
+  }
+  
+  .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .achievement-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .achievement-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .achievement-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 15px 0;
+    border-radius: 8px;
+  }
+  
+  .loading, .error {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .achievement-card {
+      padding: 15px;
+    }
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .achievements-container {
+    background: url('../assets/template\ -\ papel\ de\ parede\ -\ wallpaper\ -\ celular.jpg');
+    margin-top: 10%;
+    padding: 20px;
+    text-align: center;
+    height: 70vh;
+  }
+  
+  .title {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #0c5adb;
+  }
+  .title_work{
+    text-align: center;
+  }
+  
+  .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .achievements-grid .achievement-card:nth-child(4) {
+    grid-column: span 3;
+    justify-self: center; 
+  }
+  
+  .achievement-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    height: 40vh;
+    margin-top: 8%;
+  }
+  
+  .achievement-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .achievement-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+    border: 3px solid #007bff;
+  }
+  
+  .achiv_text {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #007bff;
+  }
+  
+  .achievement-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .loading,
+  .error {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin: 20px;
+  }
+  
+  /* Tablet view */
+  @media (max-width: 1024px) {
+    .achievements-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .achievement-card {
+      padding: 15px;
+      height: 26vh;
+      margin-top: 5%;
+    }
+  
+    .achievement-image {
+      width: 90px;
+      height: 90px;
+    }
+  
+    .achiv_text {
+      font-size: 1.3rem;
+    }
+  
+    .achievement-card p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Mobile view */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .achievements-grid {
+      grid-template-columns: 1fr; 
+    }
+  
+    .achievement-card {
+      padding: 15px;
+    }
+  
+    .achievement-image {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .achiv_text {
+      font-size: 1.2rem;
+    }
+  
+    .achievement-card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Extra small devices */
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.3rem;
+    }
+  
+    .achievement-card {
+      padding: 10px;
+    }
+  
+    .achievement-image {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .achiv_text {
+      font-size: 1rem;
+    }
+  
+    .achievement-card p {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .title {
+      font-size: 1.3rem;
+    }
+  
+    .achievement-card {
+      padding: 10px;
+      height: 18vh;
+    }
+  
+    .achievement-image {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .achiv_text {
+      font-size: 1rem;
+    }
+  
+    .achievement-card p {
+      font-size: 0.85rem;
+    }
+  }
+  
+
+
+
+
+
+
+
+/* .achievements-container{
+  border: 1px solid black;
+  background: url('../assets/template\ -\ papel\ de\ parede\ -\ wallpaper\ -\ celular.jpg');
+  margin-top: 10%;
+  width: 100%;
+  height: 70vh;
+}
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2f23a1;
+}
+.achievements-grid{
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 50vh;
+  width: 20%;
+  margin-top: 3%;
+  margin-left: 7.5%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-card {
+  background: #fff;
+  background: transparent;
+
+  border-radius: 10px;
+ 
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+.achievement-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px;
+  border: 3px solid #007bff;
+} */

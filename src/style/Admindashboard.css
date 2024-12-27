@@ -1,0 +1,153 @@
+/* .dashboard_admincards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .admincard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .admincard:hover {
+    transform: translateY(-10px);
+  }
+  
+  .admincard-icon {
+    font-size: 2rem;
+    color: #007bff; 
+  }
+  
+  .admincard p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      padding: 15px;
+    }
+  
+    .card-icon {
+      font-size: 1.8rem;
+    }
+  
+    .card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      padding: 12px;
+    }
+  
+    .card-icon {
+      font-size: 1.6rem;
+    }
+  
+    .card p {
+      font-size: 0.85rem;
+    }
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* .dashboard_admincards{
+    border: 1px solid black;
+    margin-top: 5%;
+    width: 80%;
+    height: 100vh;
+    margin-left: 18%;
+   }
+   .admincard{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 20vh;
+   } */
+
+
+
+
+
+
+
+.back_img{
+    background: url('../assets/7361118.jpg');
+}
+
+.dashboard_text{
+    text-align: center;
+    margin-top: 5%;
+    color: #007bff; 
+}
+
+
+   .dashboard_admincards {
+    /* border: 1px solid black; */
+    margin-top: 5%;
+    width: 80%;
+    height: 100vh;
+    margin-left: 18%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Makes sure cards are spaced out */
+}
+
+.admincard {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 30vh;
+        margin-bottom: 20px;
+        box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+}
+
+.admincard-icon {
+    font-size: 3rem;
+    color: #007bff; 
+  }
+  
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .admincard {
+        width: 45%; /* Adjusts card width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .admincard {
+        width: 100%; /* Stacks cards on small screens */
+        margin-left: 0;
+    }
+
+    .dashboard_admincards {
+        margin-left: 0;
+        width: 100%;
+    }
+}

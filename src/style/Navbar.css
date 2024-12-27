@@ -1,0 +1,131 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1288d6;
+    color: white;
+    flex-wrap: wrap; 
+  }
+  
+  .navbar .logo {
+    
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  p{
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .navbar .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+  }
+  
+  .navbar .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar .nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar .logo {
+      margin-bottom: 10px;
+    }
+  
+    .navbar .nav {
+      flex-direction: column; 
+      align-items: flex-start;
+      gap: 5px;
+    }
+  
+    .navbar .nav a {
+      margin: 5px 0;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .navbar .logo {
+      font-size: 20px;
+    }
+  
+    .navbar .nav a {
+      font-size: 14px;
+    }
+  }
+  
+
+
+
+
+
+
+/*    
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: #00bcd4;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav a {
+      font-size: 16px;
+    }
+  }
+   */

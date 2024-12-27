@@ -1,0 +1,268 @@
+/* .jobs-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .job-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .job-card h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .edit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+ 
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .modal-content input,
+  .modal-content textarea,
+  .modal-content select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .update-button {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .update-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c0392b;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .job-card {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .jobs-container {
+      padding: 10px;
+    }
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job_requirement{
+  margin-top: 5%;
+  text-align: center;
+  color: #007bff; 
+}
+
+   .jobs-container4 {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.job-list4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px; /* Adds space above the cards */
+}
+
+.para_text{
+margin: 5px 0;
+    font-size: 1em;
+    color: #080808;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.job-card4 {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-top: 20px; /* Adds some space between the cards */
+}
+
+.job-card4 h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #007bff; 
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.edit-button1 {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.delete-button1 {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.edit-button1:hover {
+  background-color: #2980b9;
+}
+
+.delete-button1:hover {
+  background-color: #c0392b;
+}
+
+/* Modal styles */
+.modal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content1 {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.modal-content1 input,
+.modal-content1 textarea,
+.modal-content1 select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.update-button1 {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.cancel-button1 {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.update-button1:hover {
+  background-color: #27ae60;
+}
+
+.cancel-button1:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .job-card4 {
+    width: 100%;
+    margin: 10px 0; /* Reduce the space between cards on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .jobs-container4 {
+    padding: 10px;
+  }
+}
